@@ -1,0 +1,23 @@
+header {
+   background-color: red;
+}
+
+h1 {
+   color: blue;
+}
+
+.verde {
+   background-color: green;
+}
+
+.verde h1 {
+   color: black;
+}
+
+#azul {
+   background-color: blue;
+}
+
+#azul h1 {
+   color: white;
+}
