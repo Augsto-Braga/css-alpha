@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+}
+
+nav, div {
+   margin-left: 15px;
+}
+
+.solido {
+   width: 150px;
+   height: 150px;
+   background-color: blue;
+   margin-bottom: 15px;
+}
+
+.transparencia {
+   width: 150px;
+   height: 150px;
+   background-color: rgba(255, 0, 0, 0.5);
+   margin-bottom: 15px;
+}
+
+.gradiente {
+   width: 150px;
+   height: 150px;
+   background-image: linear-gradient(to right, green, yellow, white, blue);
+   margin-bottom: 15px;
+}
+
+.unica {
+   width: 150px;
+   height: 150px;
+   border: 2px solid black;
+   background-image: url(img/pokebola.png);
+   background-size: 150px, 150px;
+   margin-bottom: 15px;
+}
+
+.repetida {
+   width: 150px;
+   height: 150px;
+   border: 2px solid black;
+   background-image: url(img/pokebola.png);
+   background-size: 50px, 50px;
+   margin-bottom: 15px;
+}

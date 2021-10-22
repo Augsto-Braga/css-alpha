@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+}
+
+nav, div {
+   margin-left: 15px;
+}
+
+.solida {
+   width: 150px;
+   height: 150px;
+   border: 2px solid black;
+}
+
+.colorida {
+   width: 150px;
+   height: 150px;
+   border: 7px solid blue;
+}
+
+.arredondada {
+   width: 150px;
+   height: 150px;
+   border: 10px solid red;
+   border-radius: 10px;
+}
+
+.pontilhada {
+   width: 150px;
+   height: 150px;
+   border: 5px dashed green;
+   border-radius: 10px;
+}
