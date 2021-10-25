@@ -1,0 +1,9 @@
+.capa {
+   display: flex;
+}
+
+.vertical {
+   margin-top: 90px;
+   font-size: 2rem;
+   writing-mode: vertical-rl;
+}

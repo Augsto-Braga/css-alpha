@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style1.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <title>Exercicio CSS fontes</title>
+</head>
+<body>
+   <h3>Preencha seus dados</h3>
+   <form action="">
+      <fieldset class="name">
+         <legend>Nome e senha</legend>
+         <label for="name">Nome: </label>
+         <input type="text" id="name">
+         <br />
+         <label for="password">Senha: </label>
+         <input type="password" id="password">
+      </fieldset>
+      <fieldset class="date">
+         <legend>Data de nascimento</legend>
+         <input type="date">
+      </fieldset>
+      <fieldset class="sex">
+         <legend>Sexo</legend>
+         <input type="radio" name="sexo" id="m" value="Masculino">
+         <label for="m">Masculino</label>
+         <br />
+         <input type="radio" name="sexo" id="f" value="Feminino">
+         <label for="f">Feminino</label>
+         <br />
+         <input type="radio" name="sexo" id="n" value="Não declarado">
+         <label for="n">Não declarado</label>
+      </fieldset>
+      <fieldset class="program">
+         <legend>Conhecimento em programação</legend>
+         <input type="checkbox" name="conhecimento" id="html">
+         <label for="html">html</label>
+         <br />
+         <input type="checkbox" name="conhecimento" id="css">
+         <label for="css">css</label>
+         <br />
+         <input type="checkbox" name="conhecimento" id="js">
+         <label for="js">javascript</label>
+         <br />
+         <input type="checkbox" name="conhecimento" id="node">
+         <label for="node">node</label>
+         <br />
+         <input type="checkbox" name="conhecimento" id="react">
+         <label for="react">react</label>
+         <br />
+      </fieldset>
+      <fieldset class="range">
+         <legend>Conhecimento Prévio</legend>
+         <label for="">Baixo</label>
+         <input type="range">
+         <label for="">Alto</label>
+      </fieldset>
+      <input type="reset" class="reset">
+      <input type="submit" class="submit">
+   </form>
+</body>
+</html>
