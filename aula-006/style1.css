@@ -1,0 +1,22 @@
+.capa {
+   display: flex;
+}
+
+.vertical {
+   margin-top: 90px;
+   font-size: 2rem;
+   writing-mode: vertical-rl;
+}
+
+ul {
+   padding-left: 2rem;
+   list-style-type: none;
+ }
+
+ul li {
+   padding-left: 2rem;
+   background-image: url(assets/eddie.png);
+   background-position: 0 0;
+   background-size: 1rem 1rem;
+   background-repeat: no-repeat;
+ }

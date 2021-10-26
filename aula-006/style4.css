@@ -1,0 +1,56 @@
+@font-face {
+   font-family: 'titulo';
+   src: url(assets/MetalMania-Regular_1.woff);
+}
+
+@font-face {
+   font-family: 'geral';
+   src: url(assets/Roboto-Medium_1.woff);
+}
+
+html {
+   font-family: 'geral', sans-serif;
+}
+
+header {
+   font-family: 'titulo', sans-serif;
+}
+
+footer {
+   display:    flex;
+   align-items: center;
+}
+
+a {
+   margin-left: 5px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+
+a:hover {
+   background: rgb(167, 167, 167);
+   border-bottom: solid 1px;
+}
+
+a:focus {
+   background: rgb(0, 0, 0);
+   color: white;
+}
+
+a:active {
+   background: black;
+}
+
+ul {
+   padding-left: 2rem;
+   list-style-type: none;
+ }
+ 
+ ul li {
+   padding-left: 2rem;
+   background-image: url(assets/png-transparent-skull-and-crossbones-skull-logo-lo.png);
+   background-position: 0 0;
+   background-size: 1rem 1rem;
+   background-repeat: no-repeat;
+ }
