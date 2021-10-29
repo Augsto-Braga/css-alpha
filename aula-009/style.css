@@ -1,0 +1,46 @@
+main {
+   display: flex;
+}
+
+nav {
+   margin: 10px
+}
+
+.content {
+   border: 1px solid blue;
+   background-color: rgb(193, 193, 255);
+}
+
+.hide {
+   visibility: collapse;
+}
+
+.wrap {
+   width: 150px;
+   border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.grid {
+   width: 150px;
+   border: 1px solid red;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.reverse {
+   width: 150px;
+   border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+}
+
+.column {
+   width: 150px;
+   border: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
