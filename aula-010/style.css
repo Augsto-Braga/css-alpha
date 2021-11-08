@@ -1,97 +1,98 @@
 * {
-   margin: 0;
-   padding: 0;
-   font-family: 'Roboto', sans-serif;
-   color: rgb(170, 170, 170);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: rgb(170, 170, 170);
 }
 
 body {
-   background-color: black;
+  background-color: black;
 }
 
 header {
-   width: 100%;
-   height: 200px;
-   background-color: rgb(48, 48, 48);
-   display: flex;
-   align-items: center;
-   border-bottom: 5px double rgb(228, 14, 14);
+  width: 100%;
+  height: 200px;
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  align-items: center;
+  border-bottom: 5px double rgb(228, 14, 14);
 }
 
 header img {
-   width: 175px;
-   height: 175px;
-   margin-left: 50px;
-   border-radius: 100%;
-   border: 1px solid white;
+  width: 175px;
+  height: 175px;
+  margin-left: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
 }
 
 .info {
-   margin-left: 30px;
+  margin-left: 30px;
 }
 
 main {
-   width: 100%;
-   background-color: black;
-   display: flex;
-   justify-content: center;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
 main section {
-   width: 95%;
-   margin-top: 50px;
-   display: flex;
-   justify-content: space-between;
+  width: 95%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 main section .content {
-   width: 30%;
-   height: 400px;
-   background-color: rgb(48, 48, 48);
-
+  width: 30%;
+  height: 400px;
+  background-color: rgb(48, 48, 48);
 }
 
 main section .content .miniHeader {
-   width: 100%;
-   height: 75px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main section .content p {
-   margin-left: 15px;
-   margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 main section .content .ling {
-   margin-top: 20px;
-   display: flex;
-   align-items: center;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 main section .content img {
-   height: 50px;
-   width: auto;
-   margin-left: 15px;
+  height: 50px;
+  width: auto;
+  margin-left: 15px;
 }
 
 main section .content a {
-   margin-left: 15px;
-   padding: 7px;
-   border-radius: 8px;
-   background-color: rgb(59, 5, 5);
-   text-decoration: none;
+  margin-left: 15px;
+  padding: 7px;
+  border-radius: 8px;
+  background-color: rgb(59, 5, 5);
+  text-decoration: none;
 }
 
 a:hover {
-   color: white;
+  color: white;
 }
 
 footer {
-   width: 100%;
-   height: 25px;
-   background-color: rgb(48, 48, 48);
-   margin-top: 50px;
-   border-top: 5px double rgb(228, 14, 14);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: rgb(48, 48, 48);
+  margin-top: 50px;
+  border-top: 5px double rgb(228, 14, 14);
 }
