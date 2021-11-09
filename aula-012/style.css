@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #3a54b4;
+}
+
+.btn {
+  background-color: #3a54b4;
+  padding: 10px;
+  font-weight: lighter;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #8896cd;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fef7ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+header .logo {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo h1 {
+  font-weight: bolder;
+  color: #3a54b4;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+header .sobre {
+  margin-right: 80px;
+}
+
+header .sobre a {
+  margin-left: 35px;
+}
+
+header .sobre .inicial {
+  color: #e9877c;
+  transition: 0.3s;
+}
+
+header .sobre .inicial:hover {
+  color: #3a54b4;
+}
+
+main {
+  width: 100%;
+  height: 660px;
+  background-color: #fef7ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .petcare {
+  margin-right: 80px;
+}
+
+main .petcare h2 {
+  font-weight: bolder;
+  color: #3a54b4;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 150px;
+  line-height: 0.8em;
+}
+
+main .petcare h3 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #3a54b4;
+}
+
+main img {
+  width: 450px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about img {
+  width: 450px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about .description {
+  width: 357px;
+  margin-left: 80px;
+}
+
+.about .description h2 {
+  font-weight: bolder;
+  color: #3a54b4;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 68px;
+  margin-bottom: 30px;
+}
+
+.about .description p {
+  font-size: 17px;
+  font-weight: lighter;
+  color: #707fb4;
+  margin-bottom: 40px;
+}
+
+.services {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h2 {
+  font-weight: bolder;
+  color: #3a54b4;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 68px;
+  margin-bottom: 50px;
+}
+
+section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .content {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .content img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+section .content h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+section .content p {
+  font-size: 17px;
+  font-weight: lighter;
+  color: #707fb4;
+  margin-bottom: 40px;
+}
