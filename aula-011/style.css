@@ -107,8 +107,7 @@ header .bothead .bheadcontent2 img {
 }
 
 main {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin: 0 70px 0 70px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
